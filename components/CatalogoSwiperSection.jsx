@@ -12,9 +12,9 @@ import { desVariants, tagVariants, titleVariants } from "@/utils/animation";
 
 export default function CatalogSwiperSection() {
   return (
-    <div className="py-8 lg:py-28">
-      <div className="container mx-auto grid pb-8 lg:grid-cols-1">
-        <div className="text-left">
+    <div className="py-8 lg:py-28 container mx-auto">
+      <div className="mx-auto grid pb-8 lg:grid-cols-1">
+        <div className="text-center lg:text-left">
           <motion.h1 initial='offscreen' whileInView={'onscreen'} variants={titleVariants} className="py-4 text-4xl font-medium lg:text-6xl lg:py-0">
             Modern Classic
           </motion.h1>
@@ -25,7 +25,7 @@ export default function CatalogSwiperSection() {
         </div>
         <motion.div  initial='offscreen' whileInView={'onscreen'} 
           variants={tagVariants}  className="grid grid-cols-2 text-gray-500 gap-x-8 mx-auto">
-          <p>
+          <p className="mx-auto">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste eius
             excepturi molestiae quas nam odio labore aliquam voluptates?
             Consectetur labore iure necessitatibus. Ratione quisquam quaerat,
@@ -48,7 +48,7 @@ export default function CatalogSwiperSection() {
       </div>
       {/* Swiper Section */}
       <Swiper
-        sliderPerView={1}
+        sliderperview={1}
         breakpoints={{
           640: { slidesPerView: 2, spaceBetween: 20 },
           1024: { slidesPerView: 3, spaceBetween: 20 },
