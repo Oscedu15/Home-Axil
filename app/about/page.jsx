@@ -15,7 +15,7 @@ const AboutPage = () => {
     offset: ["start end", "end end"]
   });
 
-  const scale = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+  const scale = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
 
   return (
     <div>
