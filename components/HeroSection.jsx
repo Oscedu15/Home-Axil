@@ -59,10 +59,10 @@ const HeroSection = () => {
       >
         <Image
           src={Img1}
-          alt=""
+          alt="heroImage"
           className="absolute right-18  xl:h-[448px] xl:w-[575px] lg:h-[344px] lg:w-[500px] hidden lg:block"
           width={800}
-          height={500}
+          height={500} placeholder="blur"
         />
       </div>
     </div>

@@ -20,7 +20,7 @@ export default function Header() {
     //remove Events
     return () => window.removeEventListener('scroll', scrollYPos);
   });
-  console.log(header)
+  // console.log(header)
   return (
     <header className={`${header ? 'py-4 bg-tertiary shadow-lg dark:bg-accent' : 'py-4 dark:bg-transparent'} sticky top-0 z-30 transition-all ${pathname === '/' && 'bg-[#fff]'}`}>
       <div className="container mx-auto">

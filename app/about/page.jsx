@@ -55,7 +55,7 @@ const AboutPage = () => {
         </div>
         <div className="items-center lg:flex gap-x-8">
           <motion.div style={{ scale }} ref={ref} className="w-full">
-            <Image src="/image/gallery1123.jpg" width={700} height={700} />
+            <Image src="/image/gallery1123.jpg" width={700} height={700} alt="gallery1123" />
           </motion.div>
           {/* Right Content Section */}
           <motion.div
@@ -119,7 +119,7 @@ const AboutPage = () => {
                   src="/image/profile2.jpg"
                   width={200}
                   height={200}
-                  className="rounded-full mx-auto"
+                  className="rounded-full mx-auto" alt="profile2"
                 />
                 <h2 className="py-4 text-2xl font-semibold uppercase">
                   Building Surveys
@@ -141,7 +141,7 @@ const AboutPage = () => {
                   src="/image/profile3.jpg"
                   width={200}
                   height={200}
-                  className="rounded-full mx-auto"
+                  className="rounded-full mx-auto" alt="profile3"
                 />
                 <h2 className="py-4 text-2xl font-semibold uppercase">
                   Building Surveys
@@ -163,7 +163,7 @@ const AboutPage = () => {
                   src="/image/profile1.jpg"
                   width={200}
                   height={200}
-                  className="rounded-full mx-auto"
+                  className="rounded-full mx-auto" alt="profile1"
                 />
                 <h2 className="py-4 text-2xl font-semibold uppercase">
                   Building Surveys

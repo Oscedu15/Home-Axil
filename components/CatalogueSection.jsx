@@ -38,7 +38,7 @@ export default function CatalogueSection() {
         {items?.map((item, index) => (
             <div key={index} className="relative overflow-hidden group cursor-pointer">
                 <div>
-                    <Image src={item.image} width={380} height={100} alt="" className="w-full"/>
+                    <Image src={item.image} width={380} height={100} alt="itemImage" className="w-full"/>
                 </div>
                 <div className="absolute top-0 p-8 bg-white text-black bg-opacity-60 backdrop-blur m-12">
                     <div className="flex justify-between pb-4">
