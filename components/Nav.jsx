@@ -29,7 +29,7 @@ const Nav = ({containerStyles, linkStyles, underlineStyles}) => {
                 </Link>
             )
 })}
-    <Link href='https://github.com/Oscedu15' target='_blank' className="absolute bottom-4">
+    <Link href='https://github.com/Oscedu15' target='_blank' className="absolute bottom-4 lg:hidden">
         <p className="text-primary font-bold mt-20">
         Developed by: <span className="italic dark:text-white">Oscar Garcia</span></p>
     </Link>
